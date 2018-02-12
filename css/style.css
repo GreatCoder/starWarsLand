@@ -1,0 +1,113 @@
+/* Styles for Star Wars Land Resort */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Pontano Sans', sans-serif;
+    text-align: center;
+    background-color: #151515;
+    color: #edf6ff;
+}
+
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+
+form {
+    padding-top: 60px;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+
+}
+
+input[type=text] {
+    margin-left: 33px;
+    margin-bottom: 20px;
+}
+
+input[type=email] {
+    margin-left: 72px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    margin-left: 184px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+textarea {
+    margin-left: 127px;
+    margin-bottom: 20px;
+}
+
+
+
+footer {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #3d3d3d;
+}
+
+.navMenu ul {
+    list-style: none;
+    padding: 30px;
+    text-transform: lowercase;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.navMenu li {
+    display: inline-block;
+}
+
+.navMenu a {
+    text-decoration: none;
+    padding: 10px;
+    color: #edf6ff;
+}
+
+.currentPage a {
+    color: red;
+}
+
+.mainSection {
+    padding: 50px;
+}
+
+.topHeader {
+    background-color: #3d3d3d;
+    background: url('../img/space3.jpg');
+    padding: 50px;
+}
+
+#blurb {
+    width: 50%;
+    margin: auto;
+}
+
+#yellow {
+    color: #eae744;
+}
+
